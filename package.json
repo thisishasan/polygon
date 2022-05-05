@@ -1,0 +1,33 @@
+{
+  "name": "polygon",
+  "version": "1.0.0",
+  "description": "Polygon Admin Panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisishasan/polygon.git"
+  },
+  "author": "Hasan Ilyas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thisishasan/polygon/issues"
+  },
+  "homepage": "https://github.com/thisishasan/polygon#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
