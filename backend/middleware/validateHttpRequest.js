@@ -9,7 +9,7 @@ const validateHttpRequest = validations => {
             return next();
         }
 
-        res.status(400).json({
+        res.status(422).json({
             errors: errors.array()
         });
     };
